@@ -1,0 +1,7 @@
+module;id=xaerominimap:minimap;x=0;y=0;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:status_effects;x=0;y=0;centered=true;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:armor_status;x=0;y=0;centered=true;fromRight=false;fromBottom=true;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:xp_drops;x=0;y=0;centered=true;fromRight=false;fromBottom=true;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:notifications;x=0;y=36;centered=true;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:entity_info;x=0;y=0;centered=false;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerobetterpvp:item_tooltip;x=0;y=78;centered=false;fromRight=true;fromBottom=true;flippedVer=false;flippedHor=false;

@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = hidebutton
+}
+
+customization {
+  hoversound = mods/rasierung2.wav
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = mods/rasierung.png
+  label =  
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 102
+  width = 98
+  action = addbutton
+  actionid = f86be239-326a-49eb-82a4-d35dac9b3b051772983508100
+  y = 24
+  height = 20
+}
+
+customization {
+  path = mods/cs16logo.png
+  orientation = top-centered
+  x = -118
+  width = 236
+  actionid = 757c2a0d-8aff-4e28-8077-27e76c6be9cf1772983623446
+  action = addtexture
+  y = 37
+  height = 45
+}
+

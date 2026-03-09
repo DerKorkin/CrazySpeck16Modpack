@@ -1,0 +1,133 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiGameOver
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  width = 200
+  action = resizebutton
+  height = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = setbuttonlabel
+  value =   
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = mods/freedownload.png
+  backgroundnormal = mods/freedownload.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = sethoverlabel
+  label = Respawnen
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = setbuttondescription
+  description = (Respawnen)
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_deathscreen_respawn_button
+  x = 0
+  action = movebutton
+  y = 72
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  width = 200
+  action = resizebutton
+  height = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  action = setbuttonlabel
+  value =      
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = mods/besplatno.png
+  backgroundnormal = mods/besplatno.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  action = sethoverlabel
+  label = Aufgeben
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  action = setbuttondescription
+  description = (Zurück zum Hauptmenü.)%n%(Virus)
+}
+
+customization {
+  path = mods/baldsmellfast.gif
+  orientation = top-left
+  x = 15
+  width = 181
+  actionid = 161501c0-6aae-43a4-b4b7-d6d0d226096f1773079044721
+  action = addtexture
+  y = 114
+  height = 115
+}
+
+customization {
+  path = mods/dustbaby.gif
+  orientation = bottom-right
+  x = -176
+  width = 125
+  actionid = 7819a85e-ed68-478a-a254-3e6005bc3d221773079257669
+  action = addtexture
+  y = -186
+  height = 148
+}
+
+customization {
+  path = mods/vapen.jpg
+  orientation = top-right
+  x = -193
+  width = 145
+  actionid = e1258f52-3299-40d8-a5e5-71ffdc182dce1773079310567
+  action = addtexture
+  y = 34
+  height = 100
+}
+

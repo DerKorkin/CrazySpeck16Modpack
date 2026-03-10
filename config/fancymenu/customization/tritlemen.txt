@@ -41,7 +41,7 @@ customization {
   orientation_element = 2bbdcb0c-24b1-4656-a808-5aaac92e3bce1773072582074
   x = 0
   action = movebutton
-  y = 29
+  y = 24
 }
 
 customization {
@@ -101,7 +101,7 @@ customization {
   width = 169
   action = deep_customization_element:title_screen_branding
   actionid = 455dbc50-f451-48dc-a649-82a66aa71bfb1772984695692
-  y = 397
+  y = 283
   height = 60
 }
 

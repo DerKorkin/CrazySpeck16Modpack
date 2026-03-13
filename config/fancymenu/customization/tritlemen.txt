@@ -1,0 +1,262 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 48
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 152
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Optionen
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = 2bbdcb0c-24b1-4656-a808-5aaac92e3bce1773072582074
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 45
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Finger weg
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = b71b08f0-7eda-4746-9f6b-82e29e8cfb8c1772984695675
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = 455dbc50-f451-48dc-a649-82a66aa71bfb1772984695692
+  y = 283
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = a327afb0-c1a8-4715-b4a6-6c90abc3f7091772984695693
+  y = 325
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 43f8cb1b-a0c2-4397-85d5-89044c9524961772984695693
+  y = 186
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4f44e95d-4132-4b8e-b342-6a92f7c25a661772984695694
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 2e619546-37ed-4c7d-a0d4-6aeee7d1946a1772984695694
+  y = 0
+  height = 30
+}
+
+customization {
+  path = mods/cs16logo.png
+  orientation = top-centered
+  x = -157
+  width = 314
+  actionid = e497c46f-dbe6-41ad-bfe8-633dd252bfb71772984703290
+  action = addtexture
+  y = 15
+  height = 60
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/ZwQH9VCxPf%btnaction_splitter_fm%
+  description = Bro bist du nicht schon%n%auf dem Server wenn du an%n%das Modpack gekommen bist?
+  label = Discord
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:forge_titlescreen_mods_button
+  x = 0
+  width = 81
+  action = addbutton
+  actionid = 2bbdcb0c-24b1-4656-a808-5aaac92e3bce1773072582074
+  y = 24
+  height = 20
+}
+
+customization {
+  hoversound = mods/rasierung2.wav
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.tiktok.com/@carsten_vril_1und1/video/7595206416995061014?is_from_webapp=1&sender_device=pc&web_id=7407893954081080864%btnaction_splitter_fm%
+  backgroundhovered = mods/rasierung.png
+  label = Rasierung
+  loopbackgroundanimations = true
+  orientation_element = 2bbdcb0c-24b1-4656-a808-5aaac92e3bce1773072582074
+  x = 84
+  width = 116
+  action = addbutton
+  actionid = 690f54d7-9324-4f4b-a976-758bc7c2313a1773072995736
+  y = 0
+  height = 20
+}
+
+customization {
+  orientation = element
+  basecolor = #fcba03
+  shadow = true
+  rotation = 15.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = e497c46f-dbe6-41ad-bfe8-633dd252bfb71772984703290
+  x = -7
+  actionid = 37d4a505-803d-48d9-9259-4a02a84e89121773074176395
+  action = addsplash
+  y = 50
+  text = CrazySpeck 4x4 ahh Modpack
+}
+
+customization {
+  path = mods/teamkorkcraft.png
+  orientation = bottom-right
+  x = -116
+  width = 108
+  actionid = 2c2f3ec3-30a5-43e3-9c4e-3c93ab8047681773077544487
+  action = addtexture
+  y = -115
+  height = 100
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Präsentiert von:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 2c2f3ec3-30a5-43e3-9c4e-3c93ab8047681773077544487
+  x = 5
+  width = 99
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6613f245-e054-4073-8168-e13ffa7070131773077579590
+  y = 2
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = e497c46f-dbe6-41ad-bfe8-633dd252bfb71772984703290
+  x = 270
+  actionid = a4033e53-f3fe-4470-9770-b5359ce370bc1773399928912
+  action = addsplash
+  y = 43
+  text = v1.3.1
+}
+

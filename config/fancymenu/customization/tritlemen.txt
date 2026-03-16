@@ -257,6 +257,6 @@ customization {
   actionid = a4033e53-f3fe-4470-9770-b5359ce370bc1773399928912
   action = addsplash
   y = 43
-  text = v1.3.2
+  text = v1.3.3
 }
 
